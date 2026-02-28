@@ -28,6 +28,8 @@
 	"custom/playerctl",
 	"custom/separator#blank",
 	"hyprland/window",
+	"custom/separator#dot-line",
+	"hyprland/language"
 	],
 
 "modules-center": [

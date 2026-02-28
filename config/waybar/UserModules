@@ -1,4 +1,4 @@
-//* ---- 💫 https://github.com/LinuxBeginnings 💫 ---- *//
+//* ---- 💫 https://github.com/JaKooLit 💫 ---- *//
 /* Waybar Modules Extras */
 
 /* This is where you can add Extra Modules you wish. copy.sh will try to restore*/
@@ -6,5 +6,15 @@
 /* IMPORTANT, be mindful with , or ". else waybar will not start */
 
 {
+
+"hyprland/language": {
+	"format": "Lang: {}",
+	"format-en": "US",
+	"format-tr": "Korea",
+	"format-ru": "RU",
+	"keyboard-name": "at-translated-set-2-keyboard",
+//	"on-click": "hyprctl switchxkblayout $SET_KB next"
+    "on-click": "hyprctl switchxkblayout at-translated-set-2-keyboard next"
+},
 
 }
